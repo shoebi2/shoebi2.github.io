@@ -20,9 +20,16 @@ export default function Home() {
           <p className="affiliation">
             <span className="affiliation-role">Project Researcher</span>
             <br />
-            Research into Artifacts, Center for Engineering
-            <br />
-            School of Engineering, The University of Tokyo
+            <a
+              className="affiliation-link"
+              href="http://humancentric.race.t.u-tokyo.ac.jp/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Research into Artifacts, Center for Engineering
+              <br />
+              School of Engineering, The University of Tokyo
+            </a>
           </p>
 
           <div className="expertise">

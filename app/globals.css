@@ -186,6 +186,22 @@ a {
   font-weight: 650;
 }
 
+.affiliation-link {
+  color: inherit;
+  text-decoration-color: color-mix(in srgb, currentColor 45%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.22em;
+  transition:
+    color 180ms ease,
+    text-decoration-color 180ms ease;
+}
+
+.affiliation-link:hover,
+.affiliation-link:focus-visible {
+  color: var(--ink);
+  text-decoration-color: currentColor;
+}
+
 .expertise {
   max-width: 640px;
   margin-top: 20px;
